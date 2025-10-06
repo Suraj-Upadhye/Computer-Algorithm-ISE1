@@ -96,7 +96,7 @@ This project implements **Selection Sort** with an **interactive, step-by-step v
 ## Screenshots
 
 1. Home Page of Selection Sort Visualizer  
-   ![Home Page](Screenshots\stepwise.png)
+   ![Home Page](Screenshots\home.png)
 
 2. Initial Array Input  
    ![Initial Input](Screenshots/input.png)
