@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selection Sort Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">Selection Sort Visualizer</h1>
+
+        <div class="controls">
+            <label>Array: <input type="text" id="customArray" placeholder="e.g., 5,3,8,1"></label>
+            <button id="userInputBtn">Set Array</button>
+            <button id="randomBtn">Random Array</button>
+            <button id="bestBtn">Best Case</button>
+            <button id="worstBtn">Worst Case</button>
+        </div>
+
+        <div class="controls">
+            <button id="playBtn">Play</button>
+            <button id="pauseBtn">Pause</button>
+            <button id="prevBtn">Prev Step</button>
+            <button id="nextBtn">Next Step</button>
+            <button id="resetBtn">Reset</button>
+            <label>Speed:
+                <select id="speedSelect">
+                    <option value="1000">Slow</option>
+                    <option value="500" selected>Medium</option>
+                    <option value="200">Fast</option>
+                </select>
+            </label>
+        </div>
+
+        <div id="arrayContainer"></div>
+
+        <div id="info">
+            <p>Comparisons: <span id="comparisons">0</span></p>
+            <p>Swaps: <span id="swaps">0</span></p>
+        </div>
+
+        <div id="complexity">
+            <h3>Selection Sort Complexity:</h3>
+            <p>Time Complexity: O(n²) | Space Complexity: O(1)</p>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <p>Developed by Suraj Upadhye</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
